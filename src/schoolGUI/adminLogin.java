@@ -9,10 +9,6 @@ public class adminLogin extends JDialog {
     private JButton loginButton;
     private JPanel loginPanel;
 
-    public adminLogin(){
-        setTitle("Admin Login");
-    }
-
     public static void main(String[] args){
         JFrame frame = new JFrame("Administrator");
         frame.setContentPane(new adminLogin().loginPanel);
